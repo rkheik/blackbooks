@@ -189,6 +189,13 @@ merge changes from master on to feature branch
 git merge master
 ```
 
+merge feature, forcing always merge commit(no fast forward)
+useful with branch per feature workflow(preserving branch topology)
+```
+git checkout dev
+git merge --no-ff feature
+```
+
 #### mergetool
 useful on merge conflicts
 ```
@@ -269,6 +276,7 @@ git checkout -b branch-v1.0 v1.0
 **Do not rebase commits that exist outside your repository.**
 
 **TODO**
+http://think-like-a-git.net/sections/rebase-from-the-ground-up.html
 
 ### Sharing and updating projects
 
@@ -390,4 +398,9 @@ doc/**/*.pdf
 ```
 git config --global alias.unstage 'reset HEAD --'
 git unstage file
+```
+
+#### Archive
+```
+git archive --format zip --output /path/file.zip master 
 ```
