@@ -13,6 +13,7 @@
   * [watch HIG](https://developer.apple.com/watch/human-interface-guidelines/)
   * [iphoneresolution](http://www.iphoneresolution.com)
   * [iphoneresolution guide](http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
+  * [iOSRes](http://iosres.com)
 * Code
   * [App programming guide](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007072-CH1-SW1)
   * [64-bit requirements](https://developer.apple.com/news/?id=04082015a)
@@ -43,6 +44,8 @@
   * [Fabric.io](https://get.fabric.io)
   * [Hockeyapp](http://hockeyapp.net)
   * [Testfairy](http://www.testfairy.com)
+  * [Installr](https://www.installrapp.com/)
+  * [Diawi](http://www.diawi.com/)
   * [testflight alternatives](https://www.playtestcloud.com/blog/testflight-alternatives-ios-android)
 
 ## Quick tables
