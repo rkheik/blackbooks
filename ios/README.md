@@ -33,9 +33,6 @@
   * Swift only in iOS8(Dynamic frameworks)
 * Xcode plugins
   * [Alcatraz](http://alcatraz.io/)
-* Net libs
-  * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
-  * [Alamofire](https://github.com/Alamofire/Alamofire)
 * Distribution
   * [App distribution guide](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/Introduction/Introduction.html)
   * [Itunes connect developer guide](https://developer.apple.com/library/ios/documentation/LanguagesUtilities/Conceptual/iTunesConnect_Guide/Chapters/About.html#//apple_ref/doc/uid/TP40011225-CH1-SW1)
@@ -47,6 +44,12 @@
   * [Installr](https://www.installrapp.com/)
   * [Diawi](http://www.diawi.com/)
   * [testflight alternatives](https://www.playtestcloud.com/blog/testflight-alternatives-ios-android)
+* Libs
+  * DB
+    * [FMDB](https://github.com/ccgus/fmdb)
+  * Net
+    * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
+    * [Alamofire](https://github.com/Alamofire/Alamofire)
 
 ## Quick tables
 
@@ -81,9 +84,11 @@
 |6    |6.2  |watchkit |8.2       |10.10 |
 |6    |6.3  |swift 1.2|8.3       |10.10 |
 |6    |6.4  |         |8.4       |10.10 |
-|7    |7.0  |watchOS2, swift2.0|9.0       |10.10 |
-|7    |7.1  |tvOS     |9.1       |10.10 |
-|7    |7.2(beta)|         |9.2       |10.10 |
+|7    |7.0  |watchOS2, swift2.0|9.0       |10.11 |
+|7    |7.1  |tvOS     |9.1       |10.11 |
+|7    |7.2  |watchOS2.1|9.2       |10.11 |
+
+[Swift OSS!](https://swift.org/)
 
 ### OSX Versions
 |Version|Name         |
