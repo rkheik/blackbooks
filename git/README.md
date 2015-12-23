@@ -69,6 +69,10 @@ git init
 git clone https://github.com/rkheik/blackbooks.git
 git clone https://github.com/rkheik/blackbooks.git dest_dir
 ```
+##### shallow clone(useful on very large repos)
+```
+git clone --depth depth remote-url
+```
 
 ### Snapshotting
 
@@ -404,3 +408,5 @@ git unstage file
 ```
 git archive --format zip --output /path/file.zip master 
 ```
+#### Handle big repos
+[big repos tips](http://blogs.atlassian.com/2014/05/handle-big-repositories-git/)
