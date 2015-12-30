@@ -31,6 +31,7 @@
   * [Cocoapods](https://github.com/CocoaPods/CocoaPods)
   * [Carthage](https://github.com/Carthage/Carthage)
   * Swift only in iOS8(Dynamic frameworks)
+  * [CocoaSeeds(swift ios7)](https://github.com/devxoul/CocoaSeeds)
 * Xcode plugins
   * [Alcatraz](http://alcatraz.io/)
 * Distribution
@@ -50,6 +51,8 @@
   * Net
     * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
     * [Alamofire](https://github.com/Alamofire/Alamofire)
+  * Other
+    * [Then(syntactic sugar initializers)](https://github.com/devxoul/Then)
 
 ## Quick tables
 
