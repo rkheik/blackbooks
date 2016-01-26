@@ -15,6 +15,7 @@ Features:
 * [Reference](http://www.git-scm.com/docs)
 * [Pro Git Book](http://git-scm.com/book/en/v2)
 * [GH cheatsheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+* [Atlassian tutorials](https://www.atlassian.com/git/tutorials/)
 
 ### Workflows
 * [Distribued workflows](http://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows#_distributed_git)
