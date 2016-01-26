@@ -32,6 +32,7 @@
   * [Carthage](https://github.com/Carthage/Carthage)
   * Swift only in iOS8(Dynamic frameworks)
   * [CocoaSeeds(swift ios7)](https://github.com/devxoul/CocoaSeeds)
+  * [Swift Package Manager](https://github.com/apple/swift-package-manager)
 * Xcode plugins
   * [Alcatraz](http://alcatraz.io/)
 * Distribution
