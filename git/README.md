@@ -103,6 +103,11 @@ git commit                         #open default editor
 git commit -m "commit message"
 git commit -a -m "commit message"  #skip stage area, adding mod files
 ```
+#### revert
+revert by making a revert commit
+```
+git revert <commit>
+```
 
 #### reset
 unstage
@@ -115,6 +120,11 @@ discard modified file
 
 ```
 git checkout -- file
+```
+
+discard changes made after commit, staged, commits & working copy (don't reset after push)
+```
+git reset --hard <commit>
 ```
 
 #### rm
@@ -407,7 +417,7 @@ git unstage file
 
 #### Archive
 ```
-git archive --format zip --output /path/file.zip master 
+git archive --format zip --output /path/file.zip master
 ```
 #### Handle big repos
 [big repos tips](http://blogs.atlassian.com/2014/05/handle-big-repositories-git/)
