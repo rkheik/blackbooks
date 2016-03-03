@@ -88,6 +88,8 @@ git add *.c
 ```
 git status
 git status -s      #short
+#show ignored files in project
+git status --ignored
 ```
 
 #### diff
@@ -176,6 +178,11 @@ branch create and switch
 git checkout -b testing
 ```
 
+checkout remote branch and track it
+```
+git checkout --track origin/<remote_branch>
+```
+
 delete no longer needed branch
 ```
 git branch -d testing
@@ -183,6 +190,16 @@ git branch -d testing
 see branched in current
 ```
 git branch --merged
+```
+
+delete local branch
+```
+git branch -D branchName
+```
+
+delete remote branch
+```
+git push origin --delete branchName
 ```
 
 
