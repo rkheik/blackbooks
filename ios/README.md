@@ -19,6 +19,8 @@
   * [64-bit requirements](https://developer.apple.com/news/?id=04082015a)
   * [Cocoa touch 64-bit](https://developer.apple.com/library/ios/documentation/General/Conceptual/CocoaTouch64BitGuide/Introduction/Introduction.html)
   * [App Extension Programming Guide](https://developer.apple.com/library/ios/documentation/General/Conceptual/ExtensibilityPG/)
+* Team
+  * [Code signing guide](https://codesigning.guide/)
 * Documentations
   * [Headerdoc (obj-c)](https://developer.apple.com/library/mac/documentation/DeveloperTools/Conceptual/HeaderDoc/intro/intro.html)
   * [Appledoc (obj-c)](https://github.com/tomaz/appledoc)
@@ -54,6 +56,8 @@
     * [Alamofire](https://github.com/Alamofire/Alamofire)
   * Other
     * [Then(syntactic sugar initializers)](https://github.com/devxoul/Then)
+* Tools
+  * [Fastlane tools](https://fastlane.tools/)
 
 ## Quick tables
 
@@ -212,3 +216,9 @@
   * Maps ETA/Transit
   * Passbook -> Wallet
   * UIStackView
+
+## Hacks
+show build times (link)[https://stackoverflow.com/questions/1027923/how-to-enable-build-timing-in-xcode/2801156]
+```
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
+```
