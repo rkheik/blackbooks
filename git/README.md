@@ -49,13 +49,14 @@ Features:
 git config --list
 ```
 
-#### Identity
+#### Global
 ```
 git config --global user.name "gitname"
 git config --global user.email "gitname@users.noreply.github.com"
 git config --global core.editor nano
 git config --global color.ui auto
 git config --global merge.tool diffmerge
+git config --global push.default simple
 ```
 
 ### Create repositories
