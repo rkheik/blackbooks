@@ -229,6 +229,11 @@ git checkout dev
 git merge --no-ff feature
 ```
 
+reset last merge
+```
+git reset --merge ORIG_HEAD
+```
+
 #### mergetool
 useful on merge conflicts
 ```
