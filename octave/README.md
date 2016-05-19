@@ -211,3 +211,10 @@ ls
 cd
 pwd
 ```
+
+## Packages
+
+```
+pkg install
+pkg load <pkg_name>
+```
