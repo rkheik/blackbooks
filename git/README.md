@@ -130,6 +130,12 @@ discard changes made after commit, staged, commits & working copy (don't reset a
 git reset --hard <commit>
 ```
 
+discard changes made after commit, and push forcing to remote(useful when you are the only developer, if not use revert)
+```
+git reset --hard <commit>
+git push -f origin <remote_branch>
+```
+
 #### rm
 remove
 ```
