@@ -413,6 +413,8 @@ git log --author=rkheik
 git log -1
 # git log decorate branches and graph
 git log --oneline --decorate --graph --all
+# count commits by user
+git shortlog -s -n
 
 ```
 
