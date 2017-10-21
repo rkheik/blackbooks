@@ -319,6 +319,11 @@ git checkout -b branch-v1.0 v1.0
 #### rebase
 **Do not rebase commits that exist outside your repository.**
 
+intercative rebase
+```
+git rebase -i [branchname]
+```
+
 **TODO**
 http://think-like-a-git.net/sections/rebase-from-the-ground-up.html
 
